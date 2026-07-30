@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "TaskForge.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TaskForge.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskForge.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskForge.Core/1.0.0": {
+      "type": "project",
+      "path": "../TaskForge.Core/TaskForge.Core.csproj",
+      "msbuildProject": "../TaskForge.Core/TaskForge.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "TaskForge.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sachi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Window Applications\\TaskForge\\TaskForge\\TaskForge.Data\\TaskForge.Data.csproj",
+      "projectName": "TaskForge.Data",
+      "projectPath": "D:\\Window Applications\\TaskForge\\TaskForge\\TaskForge.Data\\TaskForge.Data.csproj",
+      "packagesPath": "C:\\Users\\sachi\\.nuget\\packages\\",
+      "outputPath": "D:\\Window Applications\\TaskForge\\TaskForge\\TaskForge.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\Window Applications\\TaskForge\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj": {
+              "projectPath": "D:\\Window Applications\\TaskForge\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
